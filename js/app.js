@@ -33,7 +33,7 @@ const draw = e => {
     if (hue >= 360) {
         hue = 0;
     }
-    if (ctx.lineWidth >= 30 || ctx.lineWidth <= 10) {
+    if (ctx.lineWidth >= 50 || ctx.lineWidth <= 5) {
         direction = !direction;
     }
     if (direction) {
